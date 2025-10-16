@@ -12,14 +12,15 @@ Data visualization of public health statistics helps:
 - Support data-driven decisions in healthcare management  
 - Promote transparency and public engagement in health data
 
-This part focuses on the health status of the population, covering: 
+**General Goal**  
+Transform disparate statistical tables from Rosstat into **clear, interactive visual dashboards** published on the [WebMedStat.ru](http://WebMedStat.ru) platform.
+
+**Specific Goal of this part of the project**
+Visualise and investigate: 
 • Morbidity by major disease classes and groups
 • Trends and dynamics of morbidity over time
 • Regional patterns of morbidity across Russia
 • Causes of temporary disability
-
-**Goal**
-Transform disparate statistical tables from Rosstat into **clear, interactive visual dashboards** published on the [WebMedStat.ru](http://WebMedStat.ru) platform.
 
 ## Repository Structure
 The project is organized into the following folders:
@@ -37,21 +38,23 @@ The project is organized into the following folders:
 
 ## Data Processing Workflow
 
-### 1. Parsing and Cleaning
-- Parsed Rosstat tables (various formats, inconsistent headers)
+### 1. Parsing
+- Parsed Rosstat tables (various formats, inconsistent headers) 
 - Unified structure and naming
 
-### 2. 
+### 2. Data Load and Pre-processing 
 - Converted to pandas DataFrames for analysis
- **Format:** Original tables in mixed formats (Excel, PDF, DOC) were unified using Python
+- Combining data from different years and population groups into a single DataFrame
+- Data cleaning (numbers in various formats, including symbols, spaces, non-breaking spaces, and decimal parts sometimes separated by a comma and sometimes by a period -> numerical form)
+- Analysis and correction of outliers
 
----
+### 3. EDA 
 
-## Dashboards
+### 4. Dashboards
 
 The interactive dashboard allows users to explore 30 years of rainfall and snowfall data in Navarcles by year and month.
-👉 Explore online: [Population Health in Russia (Tableau Public)](https://public.tableau.com/)
-> Open `Dashboard_Navarcles.twbx` with **Tableau Desktop Public Edition (v2022.3+)**
+👉 Explore online: [Population Health in Russia (Tableau Public)]([https://public.tableau.com/](https://public.tableau.com/app/profile/liubov.shubina/viz/Russian_Population_Health/health))
+> Open `Russian_Population_Health.twbx` with **Tableau Desktop Public Edition (v2022.3+)**
 
 Dashboard includes:
 1. Morbidity by Disease Class and Group
@@ -59,7 +62,6 @@ Dashboard includes:
 3. Causes of Temporary Disability 
 4. Regional Morbidity Patterns
    
-
 ---
 
 ## License
@@ -67,13 +69,8 @@ Dashboard includes:
 This project uses publicly available data.  
 You are free to use, modify, and share with attribution.
 
----
-
 ## Acknowledgments
-Andrei Ivanov 
-
-Olga Matushevich
-
-
+Thanks to the WebMedStat.ru team, and especially **Andrey Ivanov**, for their dedication to this socially significant volunteer initiative.
+Special recognition goes to **Olga Matushevich**, data analyst and team lead for this part of the project, for her guidance and mentorship.
 
 
