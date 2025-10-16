@@ -27,12 +27,6 @@ The project is organized into the following folders:
 - **`script/`** – Jupyter notebooks for data cleaning and exploration</summary>
 - **`results/`** – Project deliverables</summary>
 
-## Data Description
-
-- **Source:** Federal State Statistics Service (Rosstat)  
-- **Reports used:** *Healthcare in Russia* (2001–2023), covering the years **1991–2022**  
-- **Format:** Original tables in mixed formats (Excel, PDF, DOC) were parsed and unified using Python (pandas)  
-
 ---
 
 ## Tools and Technologies
@@ -49,6 +43,7 @@ The project is organized into the following folders:
 
 ### 2. 
 - Converted to pandas DataFrames for analysis
+ **Format:** Original tables in mixed formats (Excel, PDF, DOC) were unified using Python
 
 ---
 
@@ -75,5 +70,10 @@ You are free to use, modify, and share with attribution.
 ---
 
 ## Acknowledgments
+Andrei Ivanov 
+
+Olga Matushevich
+
+
 
 
