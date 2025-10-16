@@ -53,7 +53,7 @@ The project is organized into the following folders:
 ### 4. Dashboards
 
 The interactive dashboard allows users to explore 30 years of rainfall and snowfall data in Navarcles by year and month.
-Explore online: [Population Health in Russia (Tableau Public)]([https://public.tableau.com/](https://public.tableau.com/app/profile/liubov.shubina/viz/Russian_Population_Health/health)
+Explore online: [Population Health in Russia (Tableau Public)](https://public.tableau.com/app/profile/liubov.shubina/viz/Russian_Population_Health/health)
 
 > Open `Russian_Population_Health.twbx` with **Tableau Desktop Public Edition (v2022.3+)**
 
