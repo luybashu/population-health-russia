@@ -13,7 +13,7 @@ Data visualization of public health statistics helps:
 - Promote transparency and public engagement in health data
 
 **General Goal**  
-Transform disparate statistical tables from Rosstat into **clear, interactive visual dashboards** published on the [WebMedStat.ru](http://WebMedStat.ru) platform.
+Transform disparate statistical tables from Rosstat into **clear, interactive visual dashboards**
 
 **Specific Goal of this part of the project**
 Visualise and investigate: 
@@ -53,7 +53,8 @@ The project is organized into the following folders:
 ### 4. Dashboards
 
 The interactive dashboard allows users to explore 30 years of rainfall and snowfall data in Navarcles by year and month.
-👉 Explore online: [Population Health in Russia (Tableau Public)]([https://public.tableau.com/](https://public.tableau.com/app/profile/liubov.shubina/viz/Russian_Population_Health/health))
+Explore online: [Population Health in Russia (Tableau Public)]([https://public.tableau.com/](https://public.tableau.com/app/profile/liubov.shubina/viz/Russian_Population_Health/health)
+
 > Open `Russian_Population_Health.twbx` with **Tableau Desktop Public Edition (v2022.3+)**
 
 Dashboard includes:
@@ -72,5 +73,3 @@ You are free to use, modify, and share with attribution.
 ## Acknowledgments
 Thanks to the WebMedStat.ru team, and especially **Andrey Ivanov**, for their dedication to this socially significant volunteer initiative.
 Special recognition goes to **Olga Matushevich**, data analyst and team lead for this part of the project, for her guidance and mentorship.
-
-
