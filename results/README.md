@@ -11,4 +11,4 @@ Includes four dashboards:
 3. Regional Morbidity Patterns
 4. Causes of Temporary Disability
 
-> [Link]([https://public.tableau.com/app/profile/liubov.shubina/viz/Rainfall_Navarcles/Dashboard_1995-2024](https://public.tableau.com/app/profile/liubov.shubina/viz/Russian_Population_Health/health)
+> [Link](https://public.tableau.com/app/profile/liubov.shubina/viz/Russian_Population_Health/health)
